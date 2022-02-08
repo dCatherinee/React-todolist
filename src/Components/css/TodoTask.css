@@ -1,0 +1,66 @@
+.todo-task{
+    width: 100%;
+    max-width: 570px;
+
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 20px;
+
+    background-color: none;
+    border-radius: none;
+}
+
+.todo-task_completed{
+    width: 100%;
+    max-width: 570px;
+
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 20px;
+
+    background-color: var(--color-light-grey);
+    border-radius: 15px;
+}
+
+.todo-task__task{
+    width: 100%;
+    font-weight: 600;
+    font-size: 24px;
+    color: var(--color-black);
+    text-align: start;
+
+    padding: 18px 0px 18px 30px;
+}
+
+.todo-task__edit{
+    /* background-color: var(--color-light-grey); */
+    border: none;
+    outline: none;
+    resize: none;
+    overflow: auto;
+
+    /* width: 100%; */
+    font-weight: 600;
+    font-size: 24px;
+    color: var(--color-black);
+    text-align: start;
+}
+
+.todo-task__btn{
+    padding: 18px 30px 18px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.todo-task__btn-edit{
+    width: 24px;
+    height: 24px;
+}
+
+.todo-task__btn-delete{
+    width: 28px;
+    height: 28px;
+    margin-left: 20px;
+}
